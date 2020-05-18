@@ -1,0 +1,120 @@
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    align-items: center;
+}
+
+.hero-section {
+    background-image: url('../images/hero.png');
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-menu-desktop {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        color: white;
+        list-style: none;
+        padding: 0px;
+        margin-bottom: 0;
+
+        li {
+            margin-right: 20px;
+        }
+    }
+
+    .demo-img {
+        margin-left: 5px;
+    }
+}
+
+
+.landing-container {
+    width: 1180px;
+    margin: 0 auto;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+
+.scalable-landing-heading {
+    font-size: 42px;
+    margin-top: 80px;
+
+    span {
+        color: #FF283C;
+    }
+}
+
+
+
+.discover-analyze-protect {
+    margin-top: 170px;
+    position: relative;
+    padding-left: 100px;
+
+    .discover-path-img {
+        background-image: url(../images/discover-path.svg);
+        position: absolute;
+        height: 100%;
+        width: 100vh;
+        left: -63px;
+        z-index: 1;
+    }   
+
+
+
+    .scalable-heading-image {
+
+        position: relative;
+
+        .img-pos-0 {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+
+    }
+
+
+
+    .discover-analyze-protect-heading {
+        font-size: 28px;
+        color: #4C4C4C;
+    }
+
+    .discover-analyze-protect-text {
+        font-size: 18px;
+        color: #4C4C4C;
+        padding: 0px 165px 0px 56px;
+    }
+
+}
+
+
+.discover-analyze-protect-box {
+
+    margin-top: 70px;
+}
+
+.big-text-box {
+font-size: 54px;
+span {
+    color: #FF283C;
+}
+
+}
+
+
+
+
+
